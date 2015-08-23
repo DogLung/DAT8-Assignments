@@ -1,6 +1,6 @@
 Douglas Leung
 
-**Class 2: Command Line and Version Control**
+##Class 2: Command Line and Version Control**
 
 1. Look at the head and the tail of chipotle.tsv in the data subdirectory of this repo. Think for a minute about how the data is structured. What do you think each column means? What do you think each row means? Tell me! (If you're unsure, look at more of the file contents.)
 
@@ -11,11 +11,15 @@ tail ~/Desktop/DAT8/data/chipotle.tsv
 
 The columns contained in the chipotle.tsv file are the following:
 
-* order_id - The identifier of an order group that may contain one or more individual items within it.
-* quantity - The amount of a particular item that is ordered given all else remains constant.
-* item_name - The particular main item that is ordered, not including additional ingredients.
-* choice_description - A list of all the additional ingredients that are partnered with the item_name field.1
-* item_price - The cost of item(s) within the order.  It should equate to quantity(item_name + choice_description).
+order_id - The identifier of an order group that may contain one or more individual items within it.
+
+quantity - The amount of a particular item that is ordered given all else remains constant.
+
+item_name - The particular main item that is ordered, not including additional ingredients.
+
+choice_description - A list of all the additional ingredients that are partnered with the item_name field.1
+
+item_price - The cost of item(s) within the order.  It should equate to quantity(item_name + choice_description).
  
 2. How many orders do there appear to be?
 Assuming that these order_id's remained in numerical order and started with 1, the number of orders is 1834.
@@ -69,13 +73,3 @@ cut -f3,3 ~/Desktop/DAT8/data/chipotle.tsv |sort | uniq -c
 ```
 
 Not very interesting, but Chicken Bowl is obviously the most popular item, but there also seem to be some redundant listings due to dashes instead of spaces.
-
-*Review the code from the beginner and intermediate Python workshops. If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time this weekend practicing Python: ?Introduction to Python does a great job explaining Python essentials and includes tons of example code.
-?If you like learning from a book, Python for Informatics has useful chapters on strings, lists, and dictionaries.
-?If you prefer interactive exercises, try these lessons from Codecademy: "Python Lists and Dictionaries" and "A Day at the Supermarket".
-?If you have more time, try missions 2 and 3 from DataQuest's Learning Python course.
-?If you've already mastered these topics and want more of a challenge, try solving Python Challenge number 1 (decoding a message) and send me your code in Slack.
-
-•To give you a framework for thinking about your project, watch What is machine learning, and how does it work? (10 minutes). (This is the IPython notebook shown in the video.) Alternatively, read A Visual Introduction to Machine Learning, which focuses on a specific machine learning model called decision trees.
-•Optional: Browse through some more example student projects, which may help to inspire your own project!
-
