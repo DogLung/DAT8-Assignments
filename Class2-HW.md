@@ -50,7 +50,7 @@ Douglas Leung
 	grep "Chicken Burrito" ~/Desktop/DAT8/data/chipotle.tsv | grep "Pinto" | wc -l
 	```
 
-Ignoring order count, Chicken Burritos are more often paired with Black beans over Pinto beans.
+	Ignoring order count, Chicken Burritos are more often paired with Black beans over Pinto beans.
 
 6. Make a list of all of the CSV or TSV files in the DAT8 repo (using a single command). Think about how wildcard characters can help you with this task.
 
