@@ -9,6 +9,7 @@ Douglas Leung
 	tail ~/Desktop/DAT8/data/chipotle.tsv
 	```
 
+
 	The columns contained in the chipotle.tsv file are the following:
 
 	* order_id - The identifier of an order group that may contain one or more individual items within it.
@@ -17,11 +18,11 @@ Douglas Leung
 
 	* item_name - The particular main item that is ordered, not including additional ingredients.
 
-	* choice_description - A list of all the additional ingredients that are partnered with the item_name field.1
+	* choice_description - A list of all the additional ingredients that are partnered with the item_name field.
 
 	* item_price - The cost of item(s) within the order.  It should equate to quantity(item_name + choice_description).
  
-**2. How many orders do there appear to be?
+**2. How many orders do there appear to be?**
 
 	Assuming that these order_id's remained in numerical order and started with 1, the number of orders is 1834.
 
