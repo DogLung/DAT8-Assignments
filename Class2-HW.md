@@ -2,7 +2,7 @@ Douglas Leung
 
 ##Class 2: Command Line and Version Control
 
-###1. Look at the head and the tail of chipotle.tsv in the data subdirectory of this repo. Think for a minute about how the data is structured. What do you think each column means? What do you think each row means? Tell me! (If you're unsure, look at more of the file contents.)
+**1. Look at the head and the tail of chipotle.tsv in the data subdirectory of this repo. Think for a minute about how the data is structured. What do you think each column means? What do you think each row means? Tell me! (If you're unsure, look at more of the file contents.)**
 
 	```
 	head ~/Desktop/DAT8/data/chipotle.tsv
@@ -10,17 +10,17 @@ Douglas Leung
 	```
 
 
-	The columns contained in the chipotle.tsv file are the following:
+		The columns contained in the chipotle.tsv file are the following:
 
-	* order_id - The identifier of an order group that may contain one or more individual items within it.
+		* order_id - The identifier of an order group that may contain one or more individual items within it.
 
-	* quantity - The amount of a particular item that is ordered given all else remains constant.
+		* quantity - The amount of a particular item that is ordered given all else remains constant.
 
-	* item_name - The particular main item that is ordered, not including additional ingredients.
+		* item_name - The particular main item that is ordered, not including additional ingredients.
 
-	* choice_description - A list of all the additional ingredients that are partnered with the item_name field.
+		* choice_description - A list of all the additional ingredients that are partnered with the item_name field.
 
-	* item_price - The cost of item(s) within the order.  It should equate to quantity(item_name + choice_description).
+		* item_price - The cost of item(s) within the order.  It should equate to quantity(item_name + choice_description).
  
 **2. How many orders do there appear to be?**
 
