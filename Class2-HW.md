@@ -10,17 +10,17 @@ Douglas Leung
 	```
 
 
-		The columns contained in the chipotle.tsv file are the following:
+The columns contained in the chipotle.tsv file are the following:
 
-		* order_id - The identifier of an order group that may contain one or more individual items within it.
+* order_id - The identifier of an order group that may contain one or more individual items within it.
 
-		* quantity - The amount of a particular item that is ordered given all else remains constant.
+* quantity - The amount of a particular item that is ordered given all else remains constant.
 
-		* item_name - The particular main item that is ordered, not including additional ingredients.
+* item_name - The particular main item that is ordered, not including additional ingredients.
 
-		* choice_description - A list of all the additional ingredients that are partnered with the item_name field.
+* choice_description - A list of all the additional ingredients that are partnered with the item_name field.
 
-		* item_price - The cost of item(s) within the order.  It should equate to quantity(item_name + choice_description).
+* item_price - The cost of item(s) within the order.  It should equate to quantity(item_name + choice_description).
  
 **2. How many orders do there appear to be?**
 
