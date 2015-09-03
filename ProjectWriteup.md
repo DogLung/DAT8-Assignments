@@ -1,10 +1,12 @@
-*What is the question you hope to answer?*
+**What is the question you hope to answer?**
 
-Can I predict the type of product complaint based on the percentages of Income, Born in State of Residence, Foreign Born, and Poverty Status of a given Zipcode/ZCTA?
+Can I predict the type of product complaint based on the percentages of Income, Born in State of Residence, Foreign Born, and Poverty Status of a given Zipcode/ZCTA?  
 
-*What data are you planning to use to answer that question?*
+Some of the factors may be irrelevant, and other sources may be found in the process of this project, but the scope will adjust as needed.
 
-Since this project is based off an existing skills assessment test, the datasets instructions that were provided are the following:
+**What data are you planning to use to answer that question?**
+
+Since this project is based off an given skills assessment test from the Consumer Financial Protection Bureau, the datasets instructions that were provided are the following:
 
 For this exercise you are to build a script or program based in the following instructions:
 
@@ -17,10 +19,10 @@ For this exercise you are to build a script or program based in the following in
 
   The header information for the geography file can be found on page 10 of the technical document here:  http://www2.census.gov/acs2013_5yr/summaryfile/ACS_2013_SF_Tech_Doc.pdf
 
-*What do you know about the data so far?*
+**What do you know about the data so far?**
 
-What I know about the data so far is that the types of complaints can be granualar if needed, but there is definitely a lot more fields than needed.  The headers for the data are in different formats for the various files.
+What I know about the data so far is that the types of complaints can be very granualar if needed, much of it can probably be aggregated when needed.  The headers for the data are in different formats for the various files.  The complaint database seems to be very robust, but the geography information can be a bit sparse for particular columns.  A lot of filtering and cleaning may need to be applied in such cases.  There is a likely possibility that an altnerative datasource would provide a better starting point, but for now this current source will be good practice.  Other geographic data can be appended to the project if found relevant.
 
-*Why did you choose this topic?*
+**Why did you choose this topic?**
 
-This topic is based upon a skills assessment that I was given when applying to the Consumer Financial Protection Bureau.  At the time I was trying to teach myself Python on the fly while taking the assessment, so I did not complete it.  However, I hope to be able to accomplish the tesk utilizing the skills I learn in this class.
+This topic is based upon a skills assessment that I was given when applying to the Consumer Financial Protection Bureau.  At the time I was trying to teach myself Python on the fly while taking the assessment.  I did not complete it, as I was not keen to the techniques of cleaning nor experienced with machine learning.  However, I hope to be able to accomplish the tesk utilizing the skills I learn in this class.
