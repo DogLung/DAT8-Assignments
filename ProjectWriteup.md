@@ -1,8 +1,8 @@
 **What is the question you hope to answer?**
 
-Can I predict the type of product complaint based on the percentages of Income, Born in State of Residence, Foreign Born, and Poverty Status of a given Zipcode/ZCTA?  
+*Can I predict the type of product complaint based on the percentages of Income, Born in State of Residence, Foreign Born, and Poverty Status of a given Zipcode/ZCTA?*
 
-Some of the factors may be irrelevant, and other sources may be found in the process of this project, but the scope will adjust as needed.
+Given that I am not a subject matter expert, some of the factors may be found to be irrelevant.  Other sources may be found in the process of this project, but the scope will adjust as needed.
 
 **What data are you planning to use to answer that question?**
 
