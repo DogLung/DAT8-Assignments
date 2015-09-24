@@ -32,11 +32,12 @@ yelp.isnull()
 yelp.groupby('stars').describe()
 
 yelp.plot(kind='scatter', x='stars', y='cool', alpha=0.2)
+sns.lmplot(x='stars', y='cool', data=yelp, aspect=1.5, scatter_kws={'alpha':0.2})
 yelp.boxplot(by='stars')
 pd.scatter_matrix(yelp)
 yelp.stars.value_counts().plot(kind='bar')
 
-sns.lmplot(x='temp', y='total', data=bikes, aspect=1.5, scatter_kws={'alpha':0.2})
+
 
 '''
 Based on the scatter matrix, it looks like a positive relationship betwen the number of stars and the votes
